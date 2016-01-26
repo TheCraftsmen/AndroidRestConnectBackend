@@ -92,5 +92,10 @@ class ConfirmMatch(Resource):
 
 api.add_resource(ConfirmMatch, '/_confirm_match/<string:match_id>/<int:user_phone>/<int:user_status>')
 
+
+@app.route('/')
+def index():
+    return "Today Match"
+
 if __name__ == '__main__':
     app.run()
