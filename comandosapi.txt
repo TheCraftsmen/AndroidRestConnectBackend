@@ -1,0 +1,5 @@
+curl http://192.168.0.104:4000/_all_user
+curl http://192.168.0.104:4000/_user_register/4566/elpepo
+curl http://192.168.0.104:4000/_pending_match/15664586
+curl http://192.168.0.104:4000/_new_match/15664586/lafinal/tuvieja/15664586
+
