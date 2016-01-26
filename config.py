@@ -1,7 +1,9 @@
+import os
+
 class BaseConfig(object):
     DEBUG = False
     SECRET_KEY = "my precious"
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///todayMatch.db'
+    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 
 
 class DevelopmentConfig(BaseConfig):
